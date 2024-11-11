@@ -9,9 +9,8 @@ metadata:
     github.com/project-slug: ${{values.destination.owner + "/" + values.destination.repo}}
     backstage.io/techdocs-ref: dir:.
     dev.azure.com/project-repo: testProject0201/testRepo0202
-    backstage.io/source-location: url:https://dev.azure.com/2orgtestorg2/testProject0201/testRepo0202
+    backstage.io/source-location: url:https://dev.azure.com/2orgtestorg2/testProject0201/testRepo0202      
 spec:
-  type: service
+  type: website
   lifecycle: experimental
   owner: ${{values.owner | dump}}
-  
