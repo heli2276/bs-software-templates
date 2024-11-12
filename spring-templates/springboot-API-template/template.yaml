@@ -3,7 +3,7 @@ kind: Template
 metadata:
   name: springboot-API-template
   title: springboot-API-template
-  description: Create a simple microservice using gRPC and Spring Boot Java
+  description: Create a general Spring Boot Java API microservice
   tags:
     - recommended
     - java

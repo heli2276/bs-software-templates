@@ -3,7 +3,7 @@ kind: Template
 metadata:
   name: springboot-cloudConfig-template
   title: springboot-cloudConfig-template
-  description: Create a simple microservice using gRPC and Spring Boot Java
+  description: Create a Spring Boot Java cloudConfig microservice
   tags:
     - recommended
     - java

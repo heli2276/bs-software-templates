@@ -3,7 +3,7 @@ kind: Template
 metadata:
   name: springboot-Eureka-template
   title: springboot-Eureka-template
-  description: Create a simple microservice using gRPC and Spring Boot Java
+  description: Create a simple Eureka microservice using Spring Boot Java
   tags:
     - recommended
     - java
