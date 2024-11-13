@@ -1,8 +1,8 @@
 apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
-  name: Demo-create-python-general-template
-  title: Demo-create-python-general-template
+  name: demo-create-python-general-template
+  title: demo-create-python-general-template
   description: Create a python FASTAPI project
   tags:
     - python
