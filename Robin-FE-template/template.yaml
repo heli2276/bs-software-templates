@@ -1,12 +1,12 @@
 apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
-  name: DEMO-create-react-general-template
-  title: DEMO-create-react-general-template
-  description: Create a new CRA website project
+  name: Demo-create-react-general-template
+  title: Demo-create-react-general-template
+  description: Create a new general react project
   tags:
     - react
-    - cra
+    - TS
     - recommended
 spec:
   owner: web@example.com
@@ -45,6 +45,7 @@ spec:
           ui:options:
             allowedHosts:
               - github.com
+              - dev.azure.com
   steps:
     - id: template
       name: Fetch Skeleton + Template

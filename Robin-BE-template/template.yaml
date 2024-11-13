@@ -3,7 +3,7 @@ kind: Template
 metadata:
   name: Demo-create-python-general-template
   title: Demo-create-python-general-template
-  description: Create a new CRA website project
+  description: Create a python FASTAPI project
   tags:
     - python
     - alembic
