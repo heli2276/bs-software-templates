@@ -1,12 +1,13 @@
 apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
-  name: create-react-app-template-customized
-  title: create-react-app-template-customized
+  name: DEMO-create-react-general-template
+  title: DEMO-create-react-general-template
   description: Create a new CRA website project
   tags:
     - react
     - cra
+    - recommended
 spec:
   owner: web@example.com
   type: website
@@ -57,6 +58,7 @@ spec:
           description: ${{ parameters.description }}
           destination: ${{ parameters.repoUrl | parseRepoUrl }}
           owner: ${{ parameters.owner }}
+          system: ${{ parameters.system }}
 
     - id: publish
       name: Publish
