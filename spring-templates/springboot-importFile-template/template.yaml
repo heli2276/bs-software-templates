@@ -6,7 +6,7 @@ metadata:
   description: Create a simple importFile microservice using Spring Boot Java
   tags:
     - java
-    - grpc
+    - importfile
 spec:
   owner: service@example.com
   type: service

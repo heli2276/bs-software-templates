@@ -6,7 +6,7 @@ metadata:
   description: Create a Spring Boot Java cloudConfig microservice
   tags:
     - java
-    - grpc
+    - config
 spec:
   owner: service@example.com
   type: service

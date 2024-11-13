@@ -6,7 +6,7 @@ metadata:
   description: Create a simple Eureka microservice using Spring Boot Java
   tags:
     - java
-    - grpc
+    - eureka
 spec:
   owner: service@example.com
   type: service

@@ -6,7 +6,7 @@ metadata:
   description: Create a simple microservice using gRPC and Spring Boot Java
   tags:
     - java
-    - grpc
+    - upload
 spec:
   owner: service@example.com
   type: service

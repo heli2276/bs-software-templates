@@ -6,7 +6,7 @@ metadata:
   description: Create a general Spring Boot Java API microservice
   tags:
     - java
-    - grpc
+    - api
 spec:
   owner: service@example.com
   type: service
