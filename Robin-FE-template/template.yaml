@@ -1,12 +1,12 @@
 apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
-  name: Demo-create-react-general-template
-  title: Demo-create-react-general-template
+  name: demo-create-react-general-template
+  title: demo-create-react-general-template
   description: Create a new general react project
   tags:
     - react
-    - TS
+    - typescript
     - recommended
 spec:
   owner: web@example.com
