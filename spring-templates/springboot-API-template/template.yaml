@@ -5,7 +5,6 @@ metadata:
   title: springboot-API-template
   description: Create a general Spring Boot Java API microservice
   tags:
-    - recommended
     - java
     - grpc
 spec:
