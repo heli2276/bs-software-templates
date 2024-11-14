@@ -67,6 +67,7 @@ spec:
       input:
         allowedHosts:
           - dev.azure.com
+          - github.com          
         description: This is ${{ parameters.component_id }}
         repoUrl: ${{ parameters.repoUrl }}
 
