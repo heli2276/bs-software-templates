@@ -62,11 +62,12 @@ spec:
           system: ${{ parameters.system }}
 
     - id: publish
-      name: Publish
-      action: publish:github
+      name: Publish to Azure
+      action: publish:azure
       input:
         allowedHosts:
           - dev.azure.com
+          - github.com          
         description: This is ${{ parameters.component_id }}
         repoUrl: ${{ parameters.repoUrl }}
 
