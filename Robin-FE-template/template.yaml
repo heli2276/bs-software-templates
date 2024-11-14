@@ -62,8 +62,8 @@ spec:
           system: ${{ parameters.system }}
 
     - id: publish
-      name: Publish
-      action: publish:github
+      name: Publish to Azure
+      action: publish:azure
       input:
         allowedHosts:
           - dev.azure.com
