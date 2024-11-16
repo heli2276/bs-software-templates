@@ -14,3 +14,4 @@ spec:
   type: website
   lifecycle: experimental
   owner: ${{values.owner | dump}}
+  system: auditgenius
